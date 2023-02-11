@@ -2,10 +2,11 @@
 
 #SSH + disk
 
-mkdir error
+mkdir -p error
 chmod 777 *
 sudo systemctl start ssh 2> ./error/ssh.txt
-sudo mount /dev/sda1 /media/usb -o uid=noraspberry,gid=noraspberry 2> ./error/disk.txt
+mkdir -p /media/data
+sudo mount /dev/sda1 /media/data -o uid=noraspberry,gid=noraspberry 2> ./error/disk.txt
 
 # Git
 
@@ -16,4 +17,4 @@ git push 2> ./error/git.txt
 
 # now enter your login and your password and it's done
 
-echo "The errors were tranfer on the error repository"
+echo $(hostname -I)
