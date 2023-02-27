@@ -1,4 +1,4 @@
-# linuxConfig
+# LinuxConfig
 
 ## It's a config for my Raspberry Pi OS Lite 🖥️
 
