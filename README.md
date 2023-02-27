@@ -1,9 +1,9 @@
-# Raspberry pi OS lite config
+# Raspberry Pi OS config 🖥️
 
-This project is just a little bash script which will help me to config my raspberry everytime I launch it.
+This project is just a little bash script which will help me to config my raspberry everytime I launch it. 
 It's actualy config for myself but you can change the settings to fit for your usage.
 
-## Warning
+## ⚠️ Warning ⚠️
 
 Firstly, you have to be sudo and be on a linux to execute bash code.
 And also, you have to change the code to fit with your hostname (check setup.sh).
