@@ -5,7 +5,7 @@ It's actualy config for myself but you can change the settings to fit for your u
 
 ## Warning
 
-Firstely, you have to be sudo and be on a linux to execute bash code.
+Firstly, you have to be sudo and be on a linux to execute bash code.
 And also, you have to change the code to fit with your hostname (check setup.sh).
 
 After, I saw there are sometimes problems to mount because the path can change and `/dev/sda1` have to be change by `/dev/sdb1` or `/dev/sdc1`.
