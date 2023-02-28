@@ -1,9 +1,13 @@
 # LinuxConfig
 
-## It's a config for my Raspberry Pi OS Lite 🖥️
+## It's a config for my Raspberry Pi OS Lite 🍇
 
 This project is just a little bash script which will help me to config my raspberry everytime I launch it. 
 It's actualy config for myself but you can change the settings to fit for your usage.
+
+## Setup 🖥️
+
+Just have to launch `setup.sh`.
 
 ## ⚠️ Warning ⚠️
 
